@@ -1,0 +1,62 @@
+.editable-text-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 45px;
+  color: #000000;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  min-width: 45%;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 40px;
+  width: 220px;
+  border-radius: 7px;
+  padding: 10px;
+  color: #323f4b;
+  font-size: 15px;
+  border: 1px #cbd2d9 solid;
+  outline: none;
+}
+
+p {
+  padding: 10px;
+  color: #323f4b;
+  font-size: 15px;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #d946ef;
+  border: none;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
